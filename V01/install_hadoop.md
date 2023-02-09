@@ -114,7 +114,7 @@ and copy the output (`/usr/lib/jvm/java-11-openjdk-amd64`).
 
 ```text
 change the line from
-# export JAVA_HOME= 
+# export JAVA_HOME=
 ```
 
 to
@@ -161,7 +161,8 @@ ls -al ~/input
 Can you explain what the program does?
 
 ## Homework
-Check the [Homework](v1_homework.md)
+
+Check the [Homework](./v01_exercises.md)
 
 ## References
 

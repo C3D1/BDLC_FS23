@@ -11,7 +11,7 @@
 
 This repository is used to provide additional resources for `BDLC_FS23`.
 
-## [V1](./V1/)
+## [V01](./V01/)
 
 - Introduction to the module
 - Setup Virtual Machine
@@ -21,5 +21,5 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 .
 ├── disk.md             # how to add additional disk space
 ├── install_hadoop.md   # how to install Apache Hadoop in Standalone Operation
-└── v1_exercises.md     # exercises for this session
+└── v01_exercises.md     # exercises for this session
 ```
