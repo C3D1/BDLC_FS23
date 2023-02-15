@@ -155,7 +155,7 @@ mkdir ~/input
 cp ~/hadoop/etc/hadoop/*.xml ~/input
 ls -al ~/input
 
-~/hadoop/bin/hadoop jar ~/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar grep ~/input ~/output 'dfs[a-z.]+'
+~/hadoop/bin/hadoop jar ~/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.4.jar grep ~/input ~/output 'dfs[a-z.]+'
 ```
 
 Can you explain what the program does?
