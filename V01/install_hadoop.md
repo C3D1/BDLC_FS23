@@ -72,7 +72,7 @@ I have already preinstalled the correct java version. In other words, you don't 
 sudo apt install openjdk-11-jdk
 ```
 
-To verify that we have indeed the version `11.0.13`, run:
+To verify that we have indeed the version `11.0.17`, run:
 
 ```bash
 java --version
@@ -88,20 +88,20 @@ If not done already, open the official [installation guide](https://hadoop.apach
 sudo apt-get install pdsh
 
 # download the latest hadoop distribution
-wget https://downloads.apache.org/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz
+wget https://downloads.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz
 
 # check with ls that the file is around
-# you should see: hadoop-3.3.1.tar.gz
+# you should see: hadoop-3.3.4.tar.gz
 ls
 
-# extract hadoop-3.3.1.tar.gz
-tar -xvzf hadoop-3.3.1.tar.gz
+# extract hadoop-3.3.4.tar.gz
+tar -xvzf hadoop-3.3.4.tar.gz
 
-# check again with ls if you see the folder hadoop-3.3.1
+# check again with ls if you see the folder hadoop-3.3.4
 ls
 
 # rename the folder to hadoop
-mv hadoop-3.3.1 hadoop
+mv hadoop-3.3.4 hadoop
 ```
 
 We need to specify `JAVA_HOME` in `~/hadoop/etc/hadoop/hadoop-env.sh`. To figure out where java's home is, run:
