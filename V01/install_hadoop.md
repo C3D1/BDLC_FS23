@@ -51,19 +51,6 @@ The command `sudo adduser hadoop` will look like:
 # Is the information correct? [Y/n] Y
 ```
 
-Now, we will switch to this user. All following steps should be executed as user `hadoop`.
-
-```bash
-# switch to the user hadoop
-su - hadoop
-
-# change to the home directory
-cd ~
-
-# verify "who you are" with
-whoami
-```
-
 ## Java
 
 I have already preinstalled the correct java version. In other words, you don't have to take care about the java version. For reference, I did:
@@ -86,7 +73,22 @@ If not done already, open the official [installation guide](https://hadoop.apach
 # install pdsh
 # answer with Y on: Do you want to continue? [Y/n] Y
 sudo apt-get install pdsh
+```
 
+Now, we will switch to this user. All following steps should be executed as user `hadoop`.
+
+```bash
+# switch to the user hadoop
+su - hadoop
+
+# change to the home directory
+cd ~
+
+# verify "who you are" with
+whoami
+```
+
+```bash
 # download the latest hadoop distribution
 wget https://downloads.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz
 
