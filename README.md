@@ -21,5 +21,22 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 .
 ├── disk.md             # how to add additional disk space
 ├── install_hadoop.md   # how to install Apache Hadoop in Standalone Operation
-└── v01_exercises.md     # exercises for this session
+└── v01_exercises.md    # exercises for this session
+```
+
+## [V02](./0V2/)
+
+- HDFS, YARN and MapReduce.
+- Run the Hadoop services as daemons (pseudo distributed mode).
+- Learn how to navigate in `hdfs` (listing, removing and adding files).
+- Write an own word count in python.
+
+```bash
+.
+├── python_solution                         # solutions for v02_exercises
+│   ├── mapper.py
+│   └── reducer.py
+├── install_hadoop_pseudo_distributed.md    # how to install Apache Hadoop in Pseudo Distributed Mode
+├── install_jupyterlab.md                   # guide for installing JupyterLab
+└── v02_exercises.md                        # exercises for this week
 ```
