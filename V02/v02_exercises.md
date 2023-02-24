@@ -37,10 +37,10 @@ hdfs dfs -cat /dataset/holmes.txt
 Run a word count on the `holmes.txt` file:
 
 ```bash
-~/hadoop/bin/hadoop jar ~/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar wordcount /dataset/holmes.txt /test
+~/hadoop/bin/hadoop jar ~/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.4.jar wordcount /dataset/holmes.txt /test
 ```
 
-> Can you find the results on the web-interface *and* via the console?
+> Can you find the results on the web-interface _and_ via the console?
 > Look at the Map Reduce Job in http://bdlc-XX.el.eee.intern:8088/cluster and try to go to the history of the word count job.
 
 Delete the test folder afterwards:
@@ -147,7 +147,7 @@ hdfs dfs -put /home/hadoop/word_count/text.txt /dataset/
 ```
 
 ```bash
-hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar \
+hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.4.jar \
 -files /home/hadoop/word_count/ \
 -mapper /home/hadoop/word_count/mapper.py \
 -reducer /home/hadoop/word_count/reducer.py \
@@ -158,7 +158,7 @@ hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar \
 ### With `holmes.txt`
 
 ```bash
-hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar \
+hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.4.jar \
 -files /home/hadoop/word_count/ \
 -mapper /home/hadoop/word_count/mapper.py \
 -reducer /home/hadoop/word_count/reducer.py \
