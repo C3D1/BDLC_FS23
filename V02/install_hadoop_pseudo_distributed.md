@@ -77,7 +77,7 @@ Replace / add the configuration part in `~/hadoop/etc/hadoop/core-site.xml` with
 nano ~/hadoop/etc/hadoop/core-site.xml
 ```
 
-for `~/hadoop/etc/hadoop/hdfs-site` with:
+for `~/hadoop/etc/hadoop/hdfs-site.xml` with:
 
 ```xml
 <configuration>
@@ -256,7 +256,7 @@ python --version
 
 ## Homework
 
-Check the [Homework](v02_homework.md)
+Check the [Homework](./v02_exercises.md)
 
 ## References
 
