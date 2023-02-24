@@ -24,7 +24,7 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 └── v01_exercises.md    # exercises for this session
 ```
 
-## [V02](./0V2/)
+## [V02](./V02/)
 
 - HDFS, YARN and MapReduce.
 - Run the Hadoop services as daemons (pseudo distributed mode).
