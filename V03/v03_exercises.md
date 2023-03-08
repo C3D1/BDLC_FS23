@@ -4,7 +4,7 @@ If not done already, complete the following guides.
 
 From last week:
 
-- [V02 Exercise](../0V2/v02_exercises.md)
+- [V02 Exercise](../V02/v02_exercises.md)
 
 Guides this week:
 
