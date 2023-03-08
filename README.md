@@ -52,9 +52,9 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 ├── 01_preparing_dataset.md             # some example dataset
 ├── 02_install_jupyterlab.md            # guide for installing JupyterLab
 ├── 03_jupyter_lab.md                   # guide for configuring JupyterLab
+├── 04_install_mrjob.md                 # guide for installing MRJob
+├── 05_tuning_yarn.md                   # using all cores and more memory
 ├── resources                           # used during the lesson
 ├── v03_exercises_material              # exercise material
-├── install_mrjob.md                    # guide for installing MRJob
-├── tuning_yarn.md                      # using all cores and more memory
 └── v03_exercises.md                    # exercises for this week
 ```

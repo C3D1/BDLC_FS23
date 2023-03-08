@@ -11,8 +11,8 @@ Guides this week:
 - [Preparing Dataset](./01_preparing_dataset.md)
 - [Installing JupyterLab](./02_install_jupyterlab.md)
 - [Setup JupyterLab](./03_jupyter_lab.md)
-- [Tuning your Cluster](./tuning_yarn.md)
-- [Installing MrJob](./install_mrjob.md)
+- [Installing MrJob](./04_install_mrjob.md)
+- [Tuning your Cluster](./05_tuning_yarn.md)
 
 ## MRJob
 
