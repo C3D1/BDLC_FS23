@@ -51,10 +51,6 @@ Also as `hadoop` add the following two `<poperty>`-tags to `~/hadoop/etc/hadoop/
     <name>yarn.nodemanager.resource.detect-hardware-capabilities</name>
     <value>true</value>
   </property>
-  <property>
-    <name>yarn.log-aggregation-enable</name>
-    <value>true</value>
-  </property>
 ```
 
 ### Additional Information About Resource Management
