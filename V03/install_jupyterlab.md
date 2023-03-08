@@ -1,10 +1,46 @@
 # Installing JupyterLab
 
+## Setup Python
+
+As `student`, install `venv` and upgrade `pip`:
+
+```bash
+sudo apt install -y python3-venv
+pip3 install --upgrade pip
+```
+
 As `hadoop`:
+
+Let us setup and configure our `venv`:
+
+```
+python3 -m venv venv
+```
+
+Edit your bash profile in `~/.bashrc` and add these three lines at the end:
+
+```text
+#activate our python venv
+source ~/venv/bin/activate
+```
+
+```bash
+nano ~/.bashrc
+```
+
+Activate the changes with:
+
+```bash
+source ~/.bashrc
+```
+
+## Installation of Jupyterlab
 
 ```bash
 pip install jupyterlab
 ```
+
+## Configuration of Jupyterlab
 
 ```bash
 jupyter notebook --generate-config
