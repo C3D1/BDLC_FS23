@@ -40,7 +40,7 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 └── v02_exercises.md                        # exercises for this week
 ```
 
-## [V03](./0V3/)
+## [V03](./V03/)
 
 - Setup and Customize `JupyterLab`.
 - Setup some dataset.
