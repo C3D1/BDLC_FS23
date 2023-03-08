@@ -8,9 +8,9 @@ From last week:
 
 Guides this week:
 
-- [Installing JupyterLab](../V03/install_jupyterlab.md)
-- [Preparing Dataset](./preparing_dataset.md)
-- [Setup JupyterLab](./jupyter_lab.md)
+- [Preparing Dataset](./01_preparing_dataset.md)
+- [Installing JupyterLab](./02_install_jupyterlab.md)
+- [Setup JupyterLab](./03_jupyter_lab.md)
 - [Tuning your Cluster](./tuning_yarn.md)
 - [Installing MrJob](./install_mrjob.md)
 
