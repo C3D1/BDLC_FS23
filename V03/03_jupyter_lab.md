@@ -26,7 +26,7 @@
 
    ```bash
    node --version
-   #v16.14.0
+   #v16.19.1
    ```
 
 5. Back in JupyterLab, try to install `jupyterlab-theme-solarized-dark` again.
