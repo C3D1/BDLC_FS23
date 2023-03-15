@@ -58,3 +58,34 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 ├── v03_exercises_material              # exercise material
 └── v03_exercises.md                    # exercises for this week
 ```
+
+## [V04](./V04/)
+
+- Installation of MySQL
+- Basics of SQL
+- SQL to MapReduce
+
+```bash
+.
+├── resources                           # used during the lesson
+│   ├── SQL_to_MR                       # Used for SQL basic understanding and writing SQLs in MapReduce.
+└── install_MySQL.md                    # Installation guide for mySQL and Python Magic.
+```
+
+<!-- ## [V05](./V05/)
+
+- Hive
+- Installation of Hive
+
+```bash
+.
+├── resources                           # used during the lesson
+│   ├── SQL_to_MR                       # Used for SQL basic understanding and writing SQLs in MapReduce.
+│   ├── Formatter_JupyterLab.md         # Question about formatters from last week.
+│   ├── hive-site.xml                   # Config file for Hive. Will be used when we install Hive.
+│   ├── Testing_Hive.ipynb              # Testing if Hive itself works and if the JupyterLab extensions work with Hive as well.
+│   └── Testing_MYSQL.ipynb             # Testing if the metastore has been initialized. Testing SQL Magic for JupyterLab.
+├── V04_exercises_material               # Exercises for this week
+├── ddl.md                              # Creating databases and tables. Insert data into tables with Hive.
+└── install_hive.md                     # Installation guide for Hive.
+``` -->
