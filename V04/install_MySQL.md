@@ -42,9 +42,9 @@ Restart the mysql service:
 sudo service mysql restart
 ```
 
-### Create User Hive in MySQL
+### Create a Test_User in MySQL
 
-We will create an own hive user in the `MySQL` database. As user `hadoop`:
+We will create an own test_user in the `MySQL` database:
 
 ```bash
 mysql -u root
