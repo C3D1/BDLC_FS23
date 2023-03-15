@@ -4,6 +4,13 @@
 sudo apt-get -y install mysql-server
 ```
 
+For `JupyterLab` support:
+
+```bash
+sudo apt install -y libmysqlclient-dev
+sudo apt install -y libsasl2-dev
+```
+
 The user root has no password:
 
 ```bash
