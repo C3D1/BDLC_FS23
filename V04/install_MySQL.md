@@ -62,28 +62,7 @@ We can set the password of hive with the first login:
 mysql -u test_user -ptest_user
 ```
 
-<!--
-Let's create a new database for the `hive_metastore`:
-
-```sql
-create database hive_metastore;
-show databases;
-exit;
-``` -->
-
-### Checking the Created Metastore - With the CLI
-
-```bash
-mysql -u hive -p
-```
-
-```sql
-use hive_metastore;
-show tables;
-exit;
-```
-
-### Checking the Created Metastore - With `JupyterLab`
+### SQL with `JupyterLab`
 
 We can run SQL directly in `JupyterLab`. Open a terminal in `Jupyterlab` and install:
 
