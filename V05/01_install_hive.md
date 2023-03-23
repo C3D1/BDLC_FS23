@@ -232,7 +232,7 @@ Basically, we need to adjust these properties:
 I have already prepared this changes. So let us download the `hive-site.xml` with:
 
 ```bash
-wget https://raw.githubusercontent.com/fred1234/BDLC_FS23/main/V04/resources/hive-site.xml -O ~/hive/conf/hive-site.xml
+wget https://raw.githubusercontent.com/fred1234/BDLC_FS23/main/V05/resources/hive-site.xml -O ~/hive/conf/hive-site.xml
 ```
 
 <!-- ```bash
