@@ -40,7 +40,7 @@ All the files are saved automatically for you. However, there are a few steps (a
 3. Stop "your" JupyterLab instance:
 
    ```bash
-   ps -ef | grep jupyter
+   ps -ef | grep jupyter-lab
    ```
 
    e.g output like:
@@ -61,7 +61,7 @@ All the files are saved automatically for you. However, there are a few steps (a
 7. Clone the pandas workshop from git: `git clone https://github.com/stefmolin/pandas-workshop.git`
 8. Create a virtual enviornment (venv) for the workshop with `python3 -m venv pandas_workshop_venv`.
 9. Activate the venv `source pandas_workshop_venv/bin/activate`.
-   1. The prompt of your shell should change from e.g.: `hadoop@bdlc-20:~/pandas-workshop$` to: `(pandas_workshop_venv) hadoop@bdlc-20:~/pandas-workshop$`
+   1. The prompt of your shell should change from e.g.: `(venv) hadoop@bdlc-20:~/pandas-workshop$` to: `(pandas_workshop_venv) hadoop@bdlc-20:~/pandas-workshop$`
 10. Change to the workshop-folder:
 
     ```bash
@@ -80,7 +80,7 @@ All the files are saved automatically for you. However, there are a few steps (a
 12. Start the workshop with `jupyter lab`.
 13. As long as the shell is open, you can access [http://bdlc-XX.el.eee.intern:8888/lab](http://bdlc-XX.el.eee.intern:8888/lab).
     1. Use your `jupyterlab` password.
-    2. You can dismiss the warnings: `jupyterlab-git server extension` and `Jupyterlab Code Formatter Error`.
+    2. You can dismiss the warnings: `jupyterlab-git server extension`.
 
 Note, if you logout from your session, the `jupyter daemon` is no longer listening. If you want to continue with the course, just activate the venv again and start `jupyterlab`, e.g.
 
