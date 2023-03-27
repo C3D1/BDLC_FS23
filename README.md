@@ -87,3 +87,12 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 │   └── Testing_MYSQL.ipynb             # Testing if the metastore has been initialized. Testing SQL Magic for JupyterLab.
 └── V05_exercises_material              # Exercises for this week
 ```
+
+## [V06](./V06/)
+
+- Pandas Workshop created by Stefanie Molin
+
+```bash
+.
+└── pandas_course.md                # Guide to run and install the workshop.
+```
