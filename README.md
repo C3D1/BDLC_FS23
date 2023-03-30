@@ -97,7 +97,7 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 └── pandas_course.md                # Guide to run and install the workshop.
 ```
 
-## [V06](./V06/)
+## [V07](./V07/)
 
 - Adding MovieLens 25M dataset to Hive.
 - Together: Answering some questions to the MovieLens dataset.
