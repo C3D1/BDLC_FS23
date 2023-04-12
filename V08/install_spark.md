@@ -141,7 +141,7 @@ cd ~/spark/conf/
 Copy the template version to the actual file:
 
 ```bash
-cp log4j.properties.template log4j.properties
+cp log4j2.properties.template log4j2.properties
 ```
 
 Change the line from:
