@@ -147,13 +147,13 @@ cp log4j2.properties.template log4j2.properties
 Change the line from:
 
 ```text
-log4j.rootCategory=INFO, console
+rootLogger.level = info
 ```
 
 to:
 
 ```text
-log4j.rootCategory=WARN, console
+rootLogger.level = warn
 ```
 
 by using `nano`:
