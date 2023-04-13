@@ -206,6 +206,8 @@ cp $HADOOP_HOME/etc/hadoop/hdfs-site.xml $SPARK_HOME/conf/
 
 In order to keep all logs from Spark, we will start the `history server` with:
 
+<!-- TODO source hat nicht gereicht für path -->
+
 ```bash
 start-history-server.sh
 ```
