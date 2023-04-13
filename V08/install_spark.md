@@ -159,7 +159,7 @@ rootLogger.level = warn
 by using `nano`:
 
 ```bash
-nano log4j.properties
+nano log4j2.properties
 ```
 
 ## Hive
