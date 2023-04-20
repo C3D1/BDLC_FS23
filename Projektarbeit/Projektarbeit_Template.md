@@ -78,7 +78,7 @@ zu benutzen.
 
 ## Vorgehen
 
-- Bilden Sie 4er oder 4er Teams. Eine Person meldet mir bis am 27.04.2023 alle Teammitglieder.
+- Bilden Sie 4er oder 5er Teams. Eine Person meldet mir bis am 27.04.2023 alle Teammitglieder.
 - Suchen Sie nach einem geeigneten Dataset. Fragen Sie mich bei Bedarf.
   - [Dataset](./dataset_ideas.md)
 - Denken Sie sich interessante Fragen (mindestens zwei) aus, welche der Datensatz beantworten könnte. Auch hier: melden Sie sich bei Fragen oder wenn Sie Unterstützung brauchen.
