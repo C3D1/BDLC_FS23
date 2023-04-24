@@ -144,3 +144,19 @@ This repository is used to provide additional resources for `BDLC_FS23`.
 ├── 03_Spark_DF_Basics.ipynb                # Basic usage for DFs (from the Book Spark - The Definitive Guide)
 ├── 04_unix.stackexchange.com.ipynb         # DFs and the unix.stackexchange.com dataset (incl. some questions at the end)
 ```
+
+## [V10](./V10/)
+
+Fokus: Projektarbeit
+
+```bash
+.
+├── Projektartbeit                              # Template for the group-work
+│   ├── dataset_ideas.md
+│   └── Projektarbeit_Template.md
+├── Jupyter_Notebooks_For_Taxi                  # Jupyter Files for Taxi Analysis
+├── 1_stop_all_services.md                      # Creating a Cluster: stopping all services
+├── 2_prepare_nodes.md                          # Creating a Cluster: prepare all node
+├── 3_master_node.md                            # Creating a Cluster: setup the master node
+├── 4_dataset.md                                # Creating a Cluster: dataset download and pushing to HDFS
+```
