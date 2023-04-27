@@ -464,7 +464,7 @@ start the service with:
 jupyter lab
 ```
 
-And 19 the service in your web-browser with the url `http://bdlc-XX.el.eee.intern:8888/lab`
+And test the service in your web-browser with the url `http://bdlc-XX.el.eee.intern:8888/lab`
 
 close the running service (`ctrl-c twice`) and start jupyter as a service
 

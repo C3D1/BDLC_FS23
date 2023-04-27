@@ -24,7 +24,6 @@ Create a folder `/data/dataset_cluster/taxi` and add the bash script to a file c
 #!/usr/bin/env bash
 
 #https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-#https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2009-06.parquet
 
 for year in {2009..2021}; do
     echo Year - $year
@@ -35,7 +34,6 @@ for year in {2009..2021}; do
 
         year_date=$year-$month
         url=https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_${year_date}.parquet
-        # url=https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_${year_date}.parquet
 
         wget $url -O ./$year/yellow_tripdata_${year_date}.parquet
 
