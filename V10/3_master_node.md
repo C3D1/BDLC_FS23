@@ -408,10 +408,7 @@ pip install jupyterlab
 pip install jupyterlab-git
 pip install SQLAlchemy==1.3.24
 pip install pandas
-pip install mysqlclient
 pip install ipython-sql
-pip install jupyterlab_code_formatter
-pip install black isort
 pip install pyarrow
 pip install findspark
 pip install sparksql-magic
